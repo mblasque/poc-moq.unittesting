@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoqExample.WebApi", "MoqExample.WebApi\MoqExample.WebApi.csproj", "{3D79794F-BB6F-4DC1-BA3B-0D97485E64A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infra", "2 - Infra", "{2F35F987-1611-482D-86A2-C96B0A95A470}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Application", "0 - Application", "{EA35E5C1-97A6-4545-B49C-195F512969F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Tests", "3 - Tests", "{A05B10A6-3671-4610-87AD-95C38F52459D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{AECB397B-9377-4464-B198-20DEA88CD99C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoqExample.Application", "MoqExample.Application\MoqExample.Application.csproj", "{8837F143-C8F2-4120-B5DC-09001251A73E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoqExample.Domain", "MoqExample.Domain\MoqExample.Domain.csproj", "{01CABD27-C317-49B8-A069-55F7E38B1983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoqExample.Infra", "MoqExample.Infra\MoqExample.Infra.csproj", "{8AD91750-E413-42D7-88F6-AD921B7EBD86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoqExample.Tests", "MoqExample.Tests\MoqExample.Tests.csproj", "{13A0EA2C-8577-418B-9108-58E873AE2C90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D79794F-BB6F-4DC1-BA3B-0D97485E64A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D79794F-BB6F-4DC1-BA3B-0D97485E64A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D79794F-BB6F-4DC1-BA3B-0D97485E64A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D79794F-BB6F-4DC1-BA3B-0D97485E64A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8837F143-C8F2-4120-B5DC-09001251A73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8837F143-C8F2-4120-B5DC-09001251A73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8837F143-C8F2-4120-B5DC-09001251A73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8837F143-C8F2-4120-B5DC-09001251A73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CABD27-C317-49B8-A069-55F7E38B1983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CABD27-C317-49B8-A069-55F7E38B1983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CABD27-C317-49B8-A069-55F7E38B1983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CABD27-C317-49B8-A069-55F7E38B1983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AD91750-E413-42D7-88F6-AD921B7EBD86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD91750-E413-42D7-88F6-AD921B7EBD86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD91750-E413-42D7-88F6-AD921B7EBD86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD91750-E413-42D7-88F6-AD921B7EBD86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A0EA2C-8577-418B-9108-58E873AE2C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A0EA2C-8577-418B-9108-58E873AE2C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A0EA2C-8577-418B-9108-58E873AE2C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A0EA2C-8577-418B-9108-58E873AE2C90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8837F143-C8F2-4120-B5DC-09001251A73E} = {EA35E5C1-97A6-4545-B49C-195F512969F3}
+		{01CABD27-C317-49B8-A069-55F7E38B1983} = {AECB397B-9377-4464-B198-20DEA88CD99C}
+		{8AD91750-E413-42D7-88F6-AD921B7EBD86} = {2F35F987-1611-482D-86A2-C96B0A95A470}
+		{13A0EA2C-8577-418B-9108-58E873AE2C90} = {A05B10A6-3671-4610-87AD-95C38F52459D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE3519F4-D228-46EC-BB33-2DC38E9F58BB}
+	EndGlobalSection
+EndGlobal
